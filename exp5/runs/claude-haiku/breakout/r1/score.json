@@ -1,0 +1,42 @@
+{
+ "tag": "claude-haiku",
+ "model": "haiku",
+ "game": "breakout",
+ "rep": 1,
+ "sample": {
+  "mean": 0.507,
+  "se": 0.01581774956184353,
+  "episodes": 1000,
+  "max": 1.0,
+  "min": 0.0,
+  "mean_length": 11.07,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 1.2
+ },
+ "greedy": {
+  "mean": 0.507,
+  "se": 0.01581774956184353,
+  "episodes": 1000,
+  "max": 1.0,
+  "min": 0.0,
+  "mean_length": 11.07,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 1.2
+ },
+ "parsed_block": true,
+ "statements": 73,
+ "applied": 72,
+ "errors": 1,
+ "cut_off": false,
+ "nonzero_total": 1452,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 251059
+ },
+ "wall_s": null,
+ "rc": 0
+}

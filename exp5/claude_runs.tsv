@@ -5,9 +5,9 @@ sonnet	asterix	1	default	<tasks>/a3dd6a54d1fc772c2.output	<scratch>/subj/sonnet-
 sonnet	breakout	1	xhigh	<tasks>/a7cf15ef3e3881306.output	<scratch>/subj/x-sonnet-breakout-r1	failed: API safeguards flag [reasoning_extraction], req_011Cgj2fQmvNrh475HDej3tv
 sonnet	seaquest	1	xhigh	<tasks>/a7baeba201c0ad588.output	<scratch>/subj/x-sonnet-seaquest-r1	scored
 sonnet	asterix	1	xhigh	<tasks>/ac1cbd5f88c972312.output	<scratch>/subj/x-sonnet-asterix-r1	scored
-haiku	breakout	1	xhigh	<tasks>/a60eddd036c052f0a.output	<scratch>/subj/x-haiku-breakout-r1	running
-haiku	seaquest	1	xhigh	<tasks>/a50ccbf27a6e6943f.output	<scratch>/subj/x-haiku-seaquest-r1	running
-haiku	asterix	1	xhigh	<tasks>/a409da973d2d3ec50.output	<scratch>/subj/x-haiku-asterix-r1	running
+haiku	breakout	1	xhigh	<tasks>/a60eddd036c052f0a.output	<scratch>/subj/x-haiku-breakout-r1	scored
+haiku	seaquest	1	xhigh	<tasks>/a50ccbf27a6e6943f.output	<scratch>/subj/x-haiku-seaquest-r1	scored
+haiku	asterix	1	xhigh	<tasks>/a409da973d2d3ec50.output	<scratch>/subj/x-haiku-asterix-r1	scored
 opus	breakout	1	xhigh	<tasks>/a696731e5ba35100a.output	<scratch>/subj/x-opus-breakout-r1	failed: stopped by safety classifier mid-response (subagent report); no answer written
-opus	seaquest	1	xhigh	<tasks>/a825a7cadc22ba404.output	<scratch>/subj/x-opus-seaquest-r1	running
-opus	asterix	1	xhigh	<tasks>/af62ccd3a95d58510.output	<scratch>/subj/x-opus-asterix-r1	running
+opus	seaquest	1	xhigh	<tasks>/a825a7cadc22ba404.output	<scratch>/subj/x-opus-seaquest-r1	scored
+opus	asterix	1	xhigh	<tasks>/af62ccd3a95d58510.output	<scratch>/subj/x-opus-asterix-r1	scored

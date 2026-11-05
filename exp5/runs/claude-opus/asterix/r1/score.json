@@ -1,0 +1,42 @@
+{
+ "tag": "claude-opus",
+ "model": "opus",
+ "game": "asterix",
+ "rep": 1,
+ "sample": {
+  "mean": 49.041,
+  "se": 0.9691535366378113,
+  "episodes": 1000,
+  "max": 157.0,
+  "min": 0.0,
+  "mean_length": 818.249,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 7.0
+ },
+ "greedy": {
+  "mean": 50.28,
+  "se": 0.9945183088644808,
+  "episodes": 1000,
+  "max": 212.0,
+  "min": 0.0,
+  "mean_length": 827.278,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 7.9
+ },
+ "parsed_block": true,
+ "statements": 133,
+ "applied": 133,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 522,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 92032
+ },
+ "wall_s": null,
+ "rc": 0
+}

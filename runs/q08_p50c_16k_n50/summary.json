@@ -1,0 +1,24 @@
+{
+ "n_generations": 50,
+ "n_problems": 50,
+ "acc": 0.22,
+ "cut_share": 0.76,
+ "acc_when_finished": 0.9166666666666666,
+ "mean_tokens": 14849.32,
+ "args": {
+  "model": "models/qwen35-0.8b-p50c",
+  "out": "runs/q08_p50c_16k_n50",
+  "n": 50,
+  "offset": 0,
+  "samples": 1,
+  "max_tokens": 16384,
+  "thinking": 1,
+  "temp": 0.6,
+  "top_p": 0.95,
+  "top_k": 20,
+  "presence": 1.5,
+  "repetition": 0.0,
+  "batch": 32,
+  "seed": 0
+ }
+}

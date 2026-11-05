@@ -118,6 +118,10 @@ def main():
     sel = [rows[i] for i in order[a.offset:a.offset + a.n]]
 
     mx.random.seed(a.seed)
+    # Metal caps the number of live buffers (~499k). The penalty processors make index arrays whose size grows by one
+    # every step, so freed buffers of ever-new sizes pile up in MLX's cache until malloc fails on long (32k)
+    # generations. Cap the cache and clear it periodically (see the step loop).
+    mx.set_cache_limit(2 << 30)
     model, tok = load(a.model)
     vocab = model.args.vocab_size if hasattr(model.args, "vocab_size") else 300000
     prompts, meta = [], []
@@ -154,9 +158,12 @@ def main():
                       logits_processors=[procs() for _ in todo])
     uid2i = dict(zip(uids, todo))
     toks = {u: [] for u in uids}
-    t0, ntok, fin = time.time(), 0, 0
+    t0, ntok, fin, steps = time.time(), 0, 0, 0
     with open(done_path, "a") as f:
         while responses := gen.next_generated():
+            steps += 1
+            if steps % 256 == 0:
+                mx.clear_cache()
             for r in responses:
                 if r.finish_reason != "stop":
                     toks[r.uid].append(r.token)

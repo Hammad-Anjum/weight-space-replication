@@ -1,4 +1,149 @@
 {
+ "claude-haiku.breakout": {
+  "sample": [
+   0.507
+  ],
+  "greedy": [
+   0.507
+  ],
+  "sample_mean": 0.507,
+  "greedy_mean": 0.507,
+  "failed": 0,
+  "out_tokens": [
+   251059
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "72/73"
+  ],
+  "nonzero": [
+   1452
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-haiku.seaquest": {
+  "sample": [
+   1.341
+  ],
+  "greedy": [
+   0.694
+  ],
+  "sample_mean": 1.341,
+  "greedy_mean": 0.694,
+  "failed": 0,
+  "out_tokens": [
+   200370
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "88/88"
+  ],
+  "nonzero": [
+   569
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-haiku.asterix": {
+  "sample": [
+   3.328
+  ],
+  "greedy": [
+   3.367
+  ],
+  "sample_mean": 3.328,
+  "greedy_mean": 3.367,
+  "failed": 0,
+  "out_tokens": [
+   185410
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "88/88"
+  ],
+  "nonzero": [
+   710
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-opus.seaquest": {
+  "sample": [
+   18.02
+  ],
+  "greedy": [
+   18.567
+  ],
+  "sample_mean": 18.02,
+  "greedy_mean": 18.567,
+  "failed": 0,
+  "out_tokens": [
+   203959
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "192/192"
+  ],
+  "nonzero": [
+   917
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-opus.asterix": {
+  "sample": [
+   49.041
+  ],
+  "greedy": [
+   50.28
+  ],
+  "sample_mean": 49.041,
+  "greedy_mean": 50.28,
+  "failed": 0,
+  "out_tokens": [
+   92032
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "133/133"
+  ],
+  "nonzero": [
+   522
+  ],
+  "cut_off": [
+   false
+  ]
+ },
  "claude-sonnet.seaquest": {
   "sample": [
    5.431
@@ -10,7 +155,7 @@
   "greedy_mean": 5.307,
   "failed": 0,
   "out_tokens": [
-   503758
+   190035
   ],
   "wall_s": [
    null
@@ -39,7 +184,7 @@
   "greedy_mean": 31.139,
   "failed": 0,
   "out_tokens": [
-   659870
+   207376
   ],
   "wall_s": [
    null
@@ -68,7 +213,7 @@
   "greedy_mean": 8.366,
   "failed": 0,
   "out_tokens": [
-   13664
+   3510
   ],
   "wall_s": [
    null
@@ -97,7 +242,7 @@
   "greedy_mean": 0.952,
   "failed": 0,
   "out_tokens": [
-   200078
+   50114
   ],
   "wall_s": [
    null
@@ -126,7 +271,7 @@
   "greedy_mean": 12.889,
   "failed": 0,
   "out_tokens": [
-   141288
+   35416
   ],
   "wall_s": [
    null
@@ -146,88 +291,112 @@
  },
  "gpt-6-astra.breakout": {
   "sample": [
-   430.389
+   430.389,
+   589.527
   ],
   "greedy": [
-   322.671
+   322.671,
+   589.527
   ],
-  "sample_mean": 430.389,
-  "greedy_mean": 322.671,
+  "sample_mean": 509.958,
+  "greedy_mean": 456.09900000000005,
   "failed": 0,
   "out_tokens": [
-   22437
+   22437,
+   29269
   ],
   "wall_s": [
-   809.1
+   809.1,
+   1052.0
   ],
   "tool_free": [
+   true,
    true
   ],
   "stmts": [
-   "74/74"
+   "74/74",
+   "258/258"
   ],
   "nonzero": [
-   957
+   957,
+   1683
   ],
   "cut_off": [
+   false,
    false
   ]
  },
  "gpt-6-astra.seaquest": {
   "sample": [
-   10.082
+   10.082,
+   3.334
   ],
   "greedy": [
-   9.515
+   9.515,
+   3.399
   ],
-  "sample_mean": 10.082,
-  "greedy_mean": 9.515,
+  "sample_mean": 6.708,
+  "greedy_mean": 6.457000000000001,
   "failed": 0,
   "out_tokens": [
-   28920
+   28920,
+   27566
   ],
   "wall_s": [
-   1227.8
+   1227.8,
+   1104.5
   ],
   "tool_free": [
+   true,
    true
   ],
   "stmts": [
-   "189/189"
+   "189/189",
+   "146/146"
   ],
   "nonzero": [
-   1525
+   1525,
+   1110
   ],
   "cut_off": [
+   false,
    false
   ]
  },
  "gpt-6-astra.asterix": {
   "sample": [
-   52.925
+   52.925,
+   69.047
   ],
   "greedy": [
-   54.284
+   54.284,
+   73.798
   ],
-  "sample_mean": 52.925,
-  "greedy_mean": 54.284,
+  "sample_mean": 60.986,
+  "greedy_mean": 64.041,
   "failed": 0,
   "out_tokens": [
-   20110
+   20110,
+   16917
   ],
   "wall_s": [
-   733.1
+   733.1,
+   601.2
   ],
   "tool_free": [
+   true,
    true
   ],
   "stmts": [
-   "189/189"
+   "189/189",
+   "153/153"
   ],
   "nonzero": [
-   1424
+   1424,
+   692
   ],
   "cut_off": [
+   false,
    false
   ]
  },

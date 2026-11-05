@@ -1,0 +1,40 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 73,
+  "applied": 72,
+  "entries_written": 1548,
+  "errors": [
+   {
+    "line": 77,
+    "stmt": "b3 = [5, 40, 5, 40, 5, 5]",
+    "error": "unrecognised statement"
+   }
+  ],
+  "cut_off": false
+ },
+ "nonzero": {
+  "W1": 1404,
+  "b1": 12,
+  "W2": 20,
+  "b2": 8,
+  "W3": 8,
+  "b3": 0
+ },
+ "nonzero_total": 1452,
+ "max_abs": {
+  "W1": 54.0,
+  "b1": 31.5,
+  "W2": 4.0,
+  "b2": 7.199999809265137,
+  "W3": 10.0,
+  "b3": 0.0
+ },
+ "parameters": 20486,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 251059
+ },
+ "wall_s": null,
+ "reply_chars": 7955
+}

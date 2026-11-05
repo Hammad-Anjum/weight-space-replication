@@ -1,0 +1,42 @@
+{
+ "tag": "claude-haiku",
+ "model": "haiku",
+ "game": "asterix",
+ "rep": 1,
+ "sample": {
+  "mean": 3.328,
+  "se": 0.1042558645126752,
+  "episodes": 1000,
+  "max": 24.0,
+  "min": 0.0,
+  "mean_length": 272.726,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 3.9
+ },
+ "greedy": {
+  "mean": 3.367,
+  "se": 0.10038121033035709,
+  "episodes": 1000,
+  "max": 20.0,
+  "min": 0.0,
+  "mean_length": 274.8,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 3.7
+ },
+ "parsed_block": true,
+ "statements": 88,
+ "applied": 88,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 710,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 185410
+ },
+ "wall_s": null,
+ "rc": 0
+}

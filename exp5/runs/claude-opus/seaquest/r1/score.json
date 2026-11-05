@@ -1,0 +1,42 @@
+{
+ "tag": "claude-opus",
+ "model": "opus",
+ "game": "seaquest",
+ "rep": 1,
+ "sample": {
+  "mean": 18.02,
+  "se": 0.5625193579140437,
+  "episodes": 1000,
+  "max": 113.0,
+  "min": 0.0,
+  "mean_length": 462.787,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 5.8
+ },
+ "greedy": {
+  "mean": 18.567,
+  "se": 0.5884316126473516,
+  "episodes": 1000,
+  "max": 118.0,
+  "min": 0.0,
+  "mean_length": 487.713,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 6.9
+ },
+ "parsed_block": true,
+ "statements": 192,
+ "applied": 192,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 917,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 203959
+ },
+ "wall_s": null,
+ "rc": 0
+}

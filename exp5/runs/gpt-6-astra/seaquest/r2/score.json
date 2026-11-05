@@ -1,0 +1,46 @@
+{
+ "tag": "gpt-6-astra",
+ "model": "gpt-6-astra",
+ "game": "seaquest",
+ "rep": 2,
+ "sample": {
+  "mean": 3.334,
+  "se": 0.12303487953251949,
+  "episodes": 1000,
+  "max": 24.0,
+  "min": 0.0,
+  "mean_length": 222.502,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 1.8
+ },
+ "greedy": {
+  "mean": 3.399,
+  "se": 0.12131164624847655,
+  "episodes": 1000,
+  "max": 29.0,
+  "min": 0.0,
+  "mean_length": 227.905,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 1.7
+ },
+ "parsed_block": true,
+ "statements": 146,
+ "applied": 146,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 1110,
+ "tool_free": true,
+ "usage": {
+  "input_tokens": 8151,
+  "cached_input_tokens": 2432,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 27566,
+  "reasoning_output_tokens": 24323
+ },
+ "wall_s": 1104.5,
+ "rc": 0
+}

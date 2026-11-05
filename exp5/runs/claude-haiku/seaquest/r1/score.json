@@ -1,0 +1,42 @@
+{
+ "tag": "claude-haiku",
+ "model": "haiku",
+ "game": "seaquest",
+ "rep": 1,
+ "sample": {
+  "mean": 1.341,
+  "se": 0.04488578543073223,
+  "episodes": 1000,
+  "max": 10.0,
+  "min": 0.0,
+  "mean_length": 137.228,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 2.3
+ },
+ "greedy": {
+  "mean": 0.694,
+  "se": 0.029312509671183453,
+  "episodes": 1000,
+  "max": 5.0,
+  "min": 0.0,
+  "mean_length": 135.374,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 3.1
+ },
+ "parsed_block": true,
+ "statements": 88,
+ "applied": 88,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 569,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 200370
+ },
+ "wall_s": null,
+ "rc": 0
+}

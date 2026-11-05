@@ -1,0 +1,24 @@
+{
+ "n_generations": 100,
+ "n_problems": 100,
+ "acc": 0.43,
+ "cut_share": 0.44,
+ "acc_when_finished": 0.75,
+ "mean_tokens": 4695.44,
+ "args": {
+  "model": "models/qwen35-0.8b-base",
+  "out": "runs/q08_base_nothink",
+  "n": 100,
+  "offset": 0,
+  "samples": 1,
+  "max_tokens": 8192,
+  "thinking": 0,
+  "temp": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "presence": 1.5,
+  "repetition": 0.0,
+  "batch": 32,
+  "seed": 0
+ }
+}

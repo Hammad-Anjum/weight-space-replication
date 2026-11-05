@@ -1,0 +1,48 @@
+{
+ "backend": "claude-code-subagent",
+ "tag": "claude-opus",
+ "model": "opus",
+ "rep": 1,
+ "game": "asterix",
+ "effort": "xhigh",
+ "audit": {
+  "tool_calls": [
+   {
+    "name": "Read",
+    "target": "<scratch>/subj/x-opus-asterix-r1/task.txt"
+   },
+   {
+    "name": "Write",
+    "target": "<scratch>/subj/x-opus-asterix-r1/answer.md"
+   },
+   {
+    "name": "SubagentHandback",
+    "target": ""
+   }
+  ],
+  "tool_free": true,
+  "allowed": [
+   [
+    "Read",
+    "<scratch>/subj/x-opus-asterix-r1/task.txt"
+   ],
+   [
+    "Write",
+    "<scratch>/subj/x-opus-asterix-r1/answer.md"
+   ]
+  ],
+  "models_seen": [
+   "claude-opus-5-5"
+  ]
+ },
+ "usage": {
+  "output_tokens": 92032
+ },
+ "wall_s": null,
+ "end": "2026-11-05T14:35:42",
+ "deviations": [
+  "Claude Code subagent system prompt instead of 'Answer the user's request.'",
+  "task delivered via one Read of a staged copy of message.txt; reply saved via one Write",
+  "reasoning effort via Agent tool effort=xhigh"
+ ]
+}

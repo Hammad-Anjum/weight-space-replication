@@ -1,0 +1,46 @@
+{
+ "tag": "gpt-6-astra",
+ "model": "gpt-6-astra",
+ "game": "asterix",
+ "rep": 2,
+ "sample": {
+  "mean": 69.047,
+  "se": 1.2136464595295984,
+  "episodes": 1000,
+  "max": 235.0,
+  "min": 0.0,
+  "mean_length": 994.761,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 8.6
+ },
+ "greedy": {
+  "mean": 73.798,
+  "se": 1.2484918613783302,
+  "episodes": 1000,
+  "max": 348.0,
+  "min": 1.0,
+  "mean_length": 1030.632,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 11.3
+ },
+ "parsed_block": true,
+ "statements": 153,
+ "applied": 153,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 692,
+ "tool_free": true,
+ "usage": {
+  "input_tokens": 6238,
+  "cached_input_tokens": 2432,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 16917,
+  "reasoning_output_tokens": 12843
+ },
+ "wall_s": 601.2,
+ "rc": 0
+}
