@@ -1,14 +1,22 @@
 # Replicating "Sparks of Weight-Space Programming"
 
-An independent replication, still in progress, of Takehi, Teoh, Zhang and Khattab (MIT CSAIL, November 2026),
+An independent replication of Takehi, Teoh, Zhang and Khattab (MIT CSAIL, November 2026),
 *Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights*
 ([blog post](https://rikiyat.github.io/blog/weight-space-programming/),
 [authors' logs](https://github.com/RikiyaT/lm_understand-logs)). We have no affiliation with the authors.
 
 The question we focus on: **does it actually work, and does it hold beyond one flagship model and one run?**
 
-**[`LOG.md`](LOG.md) is the running log.** It holds every setting, deviation from the authors' setup, result and
-caveat. This README only explains how to rebuild the setup.
+**Start with [`conclusion.md`](conclusion.md).** It explains in plain English what we did, why we did it, and
+what we found, with every result table. [`LOG.md`](LOG.md) is the detailed running log: every setting, every
+change from the authors' setup, every problem we hit. This README explains how to rebuild the setup.
+
+| Result | Table |
+|---|---|
+| Qwen math: the edit works, and thinking OFF scores 43% with no edit | [figures/1_qwen_math.png](figures/1_qwen_math.png) |
+| The authors' own Qwen runs: 1 of about 7 found the big fix | [figures/2_authors_runs.png](figures/2_authors_runs.png) |
+| Writing game networks from scratch, by model | [figures/3_minatar_ladder.png](figures/3_minatar_ladder.png) |
+| Checks against the authors' released files | [figures/4_checks.png](figures/4_checks.png) |
 
 ## What's here
 
@@ -18,7 +26,9 @@ caveat. This README only explains how to rebuild the setup.
 | `wsp/make_controls.py` | Exp 8. Random-edit controls for Qwen3.5-0.8B: a random direction, random columns, random heads zeroed, and Opus-style random edits, matched to Astra's released edit |
 | `runs/` | Exp 8 eval queues (`queue*.sh`) and results: per-run `summary.json` and `generations_slim.jsonl` |
 | `exp5/` | Exp 5 (write MinAtar policy networks from scratch), across editors of different sizes: an edits-DSL parser, a 1,000-episode evaluator, runners for Codex and Claude subjects, and every run's reply, network (`net.npz`), tool audit and score |
-| `scripts/` | Repo upkeep: a commit-time path sanitizer and a generation slimmer |
+| `scripts/` | Repo upkeep: a commit-time path sanitizer, a generation slimmer, and `make_tables.py` (renders `figures/`) |
+| `figures/` | The result tables as PNG images |
+| `THREAD.md` | A short X thread that summarizes the results |
 
 ## Reproduce
 
