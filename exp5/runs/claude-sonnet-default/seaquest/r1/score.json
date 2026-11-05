@@ -1,0 +1,42 @@
+{
+ "tag": "claude-sonnet-default",
+ "model": "sonnet",
+ "game": "seaquest",
+ "rep": 1,
+ "sample": {
+  "mean": 0.8,
+  "se": 0.05244760004757845,
+  "episodes": 1000,
+  "max": 17.0,
+  "min": 0.0,
+  "mean_length": 33.534,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 1.2
+ },
+ "greedy": {
+  "mean": 0.952,
+  "se": 0.043029612449423105,
+  "episodes": 1000,
+  "max": 9.0,
+  "min": 0.0,
+  "mean_length": 66.019,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 1.8
+ },
+ "parsed_block": true,
+ "statements": 103,
+ "applied": 103,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 1135,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 50114
+ },
+ "wall_s": null,
+ "rc": 0
+}

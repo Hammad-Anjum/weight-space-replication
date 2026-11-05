@@ -1,0 +1,26 @@
+# Environment and large or external inputs (rebuilt with the steps in README)
+.venv/
+models/
+ext/
+data/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Private notes (kept locally)
+BREAKDOWN.md
+
+# Runtime logs
+runs/*.log
+exp5/logs/
+
+# Full-text Qwen generations (MBs per run). Commit summary.json and generations_slim.jsonl
+# (from scripts/slim_generations.py) instead.
+runs/**/generations.jsonl
+
+# Claude Code subagent transcripts: they contain local session details
+exp5/runs/**/subagent_transcript.jsonl
+
+# Verbatim upstream prompts, which embed GPL-3.0 MinAtar source. They are byte-identical to
+# ext/lm_understand-logs/exp5_write_from_scratch/runs/<game>/message.txt
+exp5/runs/**/prompt.txt

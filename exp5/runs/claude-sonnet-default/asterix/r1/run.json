@@ -1,0 +1,48 @@
+{
+ "backend": "claude-code-subagent",
+ "tag": "claude-sonnet-default",
+ "model": "sonnet",
+ "rep": 1,
+ "game": "asterix",
+ "effort": "default",
+ "audit": {
+  "tool_calls": [
+   {
+    "name": "Read",
+    "target": "<scratch>/subj/sonnet-asterix-r1/task.txt"
+   },
+   {
+    "name": "Write",
+    "target": "<scratch>/subj/sonnet-asterix-r1/answer.md"
+   },
+   {
+    "name": "SubagentHandback",
+    "target": ""
+   }
+  ],
+  "tool_free": true,
+  "allowed": [
+   [
+    "Read",
+    "<scratch>/subj/sonnet-asterix-r1/task.txt"
+   ],
+   [
+    "Write",
+    "<scratch>/subj/sonnet-asterix-r1/answer.md"
+   ]
+  ],
+  "models_seen": [
+   "claude-sonnet-5-5"
+  ]
+ },
+ "usage": {
+  "output_tokens": 35416
+ },
+ "wall_s": null,
+ "end": "2026-11-05T13:58:15",
+ "deviations": [
+  "Claude Code subagent system prompt instead of 'Answer the user's request.'",
+  "task delivered via one Read of a staged copy of message.txt; reply saved via one Write",
+  "reasoning effort via Agent tool effort=default"
+ ]
+}

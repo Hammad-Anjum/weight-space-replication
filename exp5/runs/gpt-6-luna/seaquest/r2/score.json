@@ -1,0 +1,46 @@
+{
+ "tag": "gpt-6-luna",
+ "model": "gpt-6-luna",
+ "game": "seaquest",
+ "rep": 2,
+ "sample": {
+  "mean": 0.0,
+  "se": 0.0,
+  "episodes": 1000,
+  "max": 0.0,
+  "min": 0.0,
+  "mean_length": 129.6,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 1.7
+ },
+ "greedy": {
+  "mean": 0.0,
+  "se": 0.0,
+  "episodes": 1000,
+  "max": 0.0,
+  "min": 0.0,
+  "mean_length": 130.385,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 2.5
+ },
+ "parsed_block": true,
+ "statements": 104,
+ "applied": 104,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 345,
+ "tool_free": true,
+ "usage": {
+  "input_tokens": 8151,
+  "cached_input_tokens": 0,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 31057,
+  "reasoning_output_tokens": 28913
+ },
+ "wall_s": 561.7,
+ "rc": 0
+}

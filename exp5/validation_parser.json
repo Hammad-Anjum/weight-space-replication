@@ -1,0 +1,44 @@
+{
+ "breakout": {
+  "exact_match": true,
+  "statements": 92,
+  "applied": 92,
+  "errors": [],
+  "nonzero_total": 815,
+  "published": [
+   92,
+   92,
+   815
+  ],
+  "entries_written": 857,
+  "pub_entries": 857
+ },
+ "seaquest": {
+  "exact_match": true,
+  "statements": 122,
+  "applied": 122,
+  "errors": [],
+  "nonzero_total": 803,
+  "published": [
+   122,
+   122,
+   803
+  ],
+  "entries_written": 905,
+  "pub_entries": 905
+ },
+ "asterix": {
+  "exact_match": true,
+  "statements": 55,
+  "applied": 55,
+  "errors": [],
+  "nonzero_total": 637,
+  "published": [
+   55,
+   55,
+   637
+  ],
+  "entries_written": 1065,
+  "pub_entries": 1065
+ }
+}

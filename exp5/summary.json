@@ -1,0 +1,369 @@
+{
+ "claude-sonnet.seaquest": {
+  "sample": [
+   5.431
+  ],
+  "greedy": [
+   5.307
+  ],
+  "sample_mean": 5.431,
+  "greedy_mean": 5.307,
+  "failed": 0,
+  "out_tokens": [
+   503758
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "117/117"
+  ],
+  "nonzero": [
+   663
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-sonnet.asterix": {
+  "sample": [
+   29.008
+  ],
+  "greedy": [
+   31.139
+  ],
+  "sample_mean": 29.008,
+  "greedy_mean": 31.139,
+  "failed": 0,
+  "out_tokens": [
+   659870
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "208/208"
+  ],
+  "nonzero": [
+   1609
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-sonnet-default.breakout": {
+  "sample": [
+   4.424
+  ],
+  "greedy": [
+   8.366
+  ],
+  "sample_mean": 4.424,
+  "greedy_mean": 8.366,
+  "failed": 0,
+  "out_tokens": [
+   13664
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "26/26"
+  ],
+  "nonzero": [
+   106
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-sonnet-default.seaquest": {
+  "sample": [
+   0.8
+  ],
+  "greedy": [
+   0.952
+  ],
+  "sample_mean": 0.8,
+  "greedy_mean": 0.952,
+  "failed": 0,
+  "out_tokens": [
+   200078
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "103/103"
+  ],
+  "nonzero": [
+   1135
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "claude-sonnet-default.asterix": {
+  "sample": [
+   10.883
+  ],
+  "greedy": [
+   12.889
+  ],
+  "sample_mean": 10.883,
+  "greedy_mean": 12.889,
+  "failed": 0,
+  "out_tokens": [
+   141288
+  ],
+  "wall_s": [
+   null
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "184/184"
+  ],
+  "nonzero": [
+   1228
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "gpt-6-astra.breakout": {
+  "sample": [
+   430.389
+  ],
+  "greedy": [
+   322.671
+  ],
+  "sample_mean": 430.389,
+  "greedy_mean": 322.671,
+  "failed": 0,
+  "out_tokens": [
+   22437
+  ],
+  "wall_s": [
+   809.1
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "74/74"
+  ],
+  "nonzero": [
+   957
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "gpt-6-astra.seaquest": {
+  "sample": [
+   10.082
+  ],
+  "greedy": [
+   9.515
+  ],
+  "sample_mean": 10.082,
+  "greedy_mean": 9.515,
+  "failed": 0,
+  "out_tokens": [
+   28920
+  ],
+  "wall_s": [
+   1227.8
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "189/189"
+  ],
+  "nonzero": [
+   1525
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "gpt-6-astra.asterix": {
+  "sample": [
+   52.925
+  ],
+  "greedy": [
+   54.284
+  ],
+  "sample_mean": 52.925,
+  "greedy_mean": 54.284,
+  "failed": 0,
+  "out_tokens": [
+   20110
+  ],
+  "wall_s": [
+   733.1
+  ],
+  "tool_free": [
+   true
+  ],
+  "stmts": [
+   "189/189"
+  ],
+  "nonzero": [
+   1424
+  ],
+  "cut_off": [
+   false
+  ]
+ },
+ "gpt-6-luna.breakout": {
+  "sample": [
+   0.0,
+   1.737,
+   2.302
+  ],
+  "greedy": [
+   0.0,
+   1.314,
+   3.6
+  ],
+  "sample_mean": 1.3463333333333332,
+  "greedy_mean": 1.638,
+  "failed": 0,
+  "out_tokens": [
+   33300,
+   25352,
+   21947
+  ],
+  "wall_s": [
+   602.4,
+   459.8,
+   397.7
+  ],
+  "tool_free": [
+   true,
+   true,
+   true
+  ],
+  "stmts": [
+   "57/57",
+   "73/75",
+   "67/67"
+  ],
+  "nonzero": [
+   403,
+   625,
+   420
+  ],
+  "cut_off": [
+   false,
+   false,
+   false
+  ]
+ },
+ "gpt-6-luna.seaquest": {
+  "sample": [
+   1.035,
+   0.0,
+   0.519
+  ],
+  "greedy": [
+   0.909,
+   0.0,
+   0.189
+  ],
+  "sample_mean": 0.5179999999999999,
+  "greedy_mean": 0.36600000000000005,
+  "failed": 0,
+  "out_tokens": [
+   14294,
+   31057,
+   19516
+  ],
+  "wall_s": [
+   260.4,
+   561.7,
+   354.1
+  ],
+  "tool_free": [
+   true,
+   true,
+   true
+  ],
+  "stmts": [
+   "88/88",
+   "104/104",
+   "145/145"
+  ],
+  "nonzero": [
+   745,
+   345,
+   1162
+  ],
+  "cut_off": [
+   false,
+   false,
+   false
+  ]
+ },
+ "gpt-6-luna.asterix": {
+  "sample": [
+   0.887,
+   1.488,
+   3.128
+  ],
+  "greedy": [
+   1.479,
+   2.439,
+   1.572
+  ],
+  "sample_mean": 1.8343333333333334,
+  "greedy_mean": 1.83,
+  "failed": 0,
+  "out_tokens": [
+   25198,
+   17822,
+   17669
+  ],
+  "wall_s": [
+   457.2,
+   323.8,
+   321.3
+  ],
+  "tool_free": [
+   true,
+   true,
+   true
+  ],
+  "stmts": [
+   "151/151",
+   "109/109",
+   "126/126"
+  ],
+  "nonzero": [
+   1040,
+   457,
+   634
+  ],
+  "cut_off": [
+   false,
+   false,
+   false
+  ]
+ }
+}

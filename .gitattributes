@@ -1,0 +1,10 @@
+# Local paths and session ids are stripped at commit time; see scripts/sanitize_paths.py
+*.py   filter=sanitize
+*.sh   filter=sanitize
+*.json filter=sanitize
+*.jsonl filter=sanitize
+*.tsv  filter=sanitize
+*.md   filter=sanitize
+*.log  filter=sanitize
+*.txt  filter=sanitize
+*.npz  binary

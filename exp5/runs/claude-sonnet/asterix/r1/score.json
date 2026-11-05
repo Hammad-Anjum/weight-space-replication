@@ -1,0 +1,42 @@
+{
+ "tag": "claude-sonnet",
+ "model": "sonnet",
+ "game": "asterix",
+ "rep": 1,
+ "sample": {
+  "mean": 29.008,
+  "se": 0.692354888255504,
+  "episodes": 1000,
+  "max": 114.0,
+  "min": 0.0,
+  "mean_length": 562.741,
+  "capped": 0,
+  "mode": "sample",
+  "seed": 0,
+  "eval_s": 7.8
+ },
+ "greedy": {
+  "mean": 31.139,
+  "se": 0.7294105282477893,
+  "episodes": 1000,
+  "max": 119.0,
+  "min": 0.0,
+  "mean_length": 589.031,
+  "capped": 0,
+  "mode": "greedy",
+  "seed": 0,
+  "eval_s": 8.2
+ },
+ "parsed_block": true,
+ "statements": 208,
+ "applied": 208,
+ "errors": 0,
+ "cut_off": false,
+ "nonzero_total": 1609,
+ "tool_free": true,
+ "usage": {
+  "output_tokens": 207376
+ },
+ "wall_s": null,
+ "rc": 0
+}

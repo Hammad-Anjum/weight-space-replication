@@ -1,0 +1,38 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 57,
+  "applied": 57,
+  "entries_written": 439,
+  "errors": [],
+  "cut_off": false
+ },
+ "nonzero": {
+  "W1": 369,
+  "b1": 0,
+  "W2": 20,
+  "b2": 4,
+  "W3": 4,
+  "b3": 6
+ },
+ "nonzero_total": 403,
+ "max_abs": {
+  "W1": 0.008999999612569809,
+  "b1": 0.0,
+  "W2": 108000.0,
+  "b2": 277.0,
+  "W3": 6.0,
+  "b3": 12.0
+ },
+ "parameters": 20486,
+ "tool_free": true,
+ "usage": {
+  "input_tokens": 6154,
+  "cached_input_tokens": 0,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 33300,
+  "reasoning_output_tokens": 32193
+ },
+ "wall_s": 602.4,
+ "reply_chars": 1838
+}
