@@ -89,8 +89,9 @@ added two comparisons that the post does not include:
 - **Astra's edit is real and specific.** It fixed 8 problems and broke 1. The random edit fixed 3 and broke 3.
   So Astra found a real cause of the repetition.
 - **The word limit matters a lot.** At 16k tokens, the edited model scored 22%. Most of its answers still ran out
-  of words. The authors used a 32k limit and got 48.1%. Another group (tdotlab) also saw scores rise when they
-  doubled the limit.
+  of words. The authors used a 32k limit and got 48.1%. Three independent groups rebuilt the same edit and tested
+  it at 32k on all 500 problems. They got 50.6% (openwsp), 50.8% (MatinKhajavi) and 51.0% (ML-Intern-lab). So the
+  edit reproduces, and our lower number comes from our shorter limit.
 - **The original model with thinking off scored 43%.** It needed no edit. This is close to the 48.1% headline.
 - **The authors knew about this.** A comment in their own code says that the model loops with thinking on, and
   that the model card makes thinking off the default. Their code notes also mention scores of 50.8% and 55.5% for
@@ -202,6 +203,9 @@ These groups also repeated parts of the paper in the same week. We read their re
 - **MatinKhajavi** (`MatinKhajavi/Weight-Space-Programming`): all 8 experiments with Claude Opus 5.5.
 - **openwsp** (`openwsp/openwsp`): a full repeat of the math experiment with GPT-6 Astra.
 - **tdotlab** (`tdotlab/weight-space-programming`): math edits by hand on Qwen3.5-0.8B and 2B.
+- **ML-Intern-lab** (`huggingface.co/ML-Intern-lab/Qwen3.5-0.8B-weight-space-programming`): a rebuild of Astra's
+  edit, tested with the authors' exact settings (32k limit, 500 problems × 4 samples). They report 51.0%. They do not
+  test thinking off.
 
 ## 9. How to repeat our work
 
