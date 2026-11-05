@@ -28,7 +28,6 @@ change from the authors' setup, every problem we hit. This README explains how t
 | `exp5/` | Exp 5 (write MinAtar policy networks from scratch), across editors of different sizes: an edits-DSL parser, a 1,000-episode evaluator, runners for Codex and Claude subjects, and every run's reply, network (`net.npz`), tool audit and score |
 | `scripts/` | Repo upkeep: a commit-time path sanitizer, a generation slimmer, and `make_tables.py` (renders `figures/`) |
 | `figures/` | The result tables as PNG images |
-| `THREAD.md` | A short X thread that summarizes the results |
 
 ## Reproduce
 

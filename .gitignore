@@ -24,3 +24,4 @@ exp5/runs/**/subagent_transcript.jsonl
 # Verbatim upstream prompts, which embed GPL-3.0 MinAtar source. They are byte-identical to
 # ext/lm_understand-logs/exp5_write_from_scratch/runs/<game>/message.txt
 exp5/runs/**/prompt.txt
+THREAD.md
